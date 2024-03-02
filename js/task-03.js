@@ -20,7 +20,7 @@ const insertImages = images
   )
   .join("");
 
-console.log(insertImages);
+// console.log(insertImages);
 
 const galleryEl = document.querySelector(".gallery");
 galleryEl.insertAdjacentHTML("beforeend", insertImages);

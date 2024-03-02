@@ -8,6 +8,7 @@ function onSubmit(event) {
 
   if (email.value.length === 0 || password.value.length === 0) {
     alert("Всі поля мають бути заповнені!");
+    return;
   }
 
   const userData = {
